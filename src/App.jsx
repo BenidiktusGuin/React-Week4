@@ -2,7 +2,7 @@ import Card from "./components/Card.tsx";
 
 export default function App() {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
+    <main className="grid grid-cols-1 md:grid-cols-4 gap-6 p-4 items-start">
       <Card 
         imgSrc= "/public/Currents.jpg" 
         title="Am I Bothering You?" 
